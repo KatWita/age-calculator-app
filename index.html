@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+  <main class="main">
+    <div class="container">
+      <header class="header">
+        <form>
+          <div class="input__container">
+            <div class="input__box">
+              <label for="day">Day</label>
+              <input id="day" type="text" maxlength="2" placeholder="DD">
+              <p class="input__error"></p>
+            </div>
+            <div class="input__box">
+              <label for="month">Month</label>
+              <input id="month" type="text" maxlength="2" placeholder="MM">
+              <p class="input__error"></p>
+            </div>
+            <div class="input__box">
+              <label for="year">Year</label>
+              <input id="year" type="text" maxlength="4" placeholder="YYYY">
+              <p class="input__error"></p>
+            </div>
+          </div>
+          <div class="button__line">
+            <button type="submit" class="button__submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+                <g fill="none" stroke="#FFF" stroke-width="2">
+                  <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </header>
+      <section class="section">
+        <p class="section__years">
+          <span class="section__number section__number--years">--</span> years
+        </p>
+        <p class="section__months">
+          <span class="section__number section__number--months">--</span> months
+        </p>
+        <p class="section__days">
+          <span class="section__number section__number--days">--</span> days
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">KatWita</a>.
+    </p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
